@@ -21,6 +21,8 @@ For production deployment
 Run the jest test suite:
 
     yarn test
+    
+Demo: https://test.iamkumaran.now.sh
 
 **NPM modules:**
 1. next
