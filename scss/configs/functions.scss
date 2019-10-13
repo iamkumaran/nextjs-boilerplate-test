@@ -1,0 +1,15 @@
+/* stylelint-disable unit-whitelist, at-rule-empty-line-before */
+
+@function to-rem($pixels, $context: 16) {
+    @if (unitless($pixels)) {
+      $pixels: $pixels * 1px;
+    }
+  
+    @if (unitless($context)) {
+      $context: $context * 1px;
+    }
+  
+    @return ($pixels / $context) * 1rem;
+  }
+  
+  /* stylelint-enable */

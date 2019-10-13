@@ -1,0 +1,7 @@
+@import "./configs/functions.scss";
+
+$color: #2ecc71;
+body {
+  background-color: $color;
+  border: to-rem(30) solid red;
+}
